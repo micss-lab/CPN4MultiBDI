@@ -1,0 +1,494 @@
+CPN Tools state space report for:
+/cygdrive/C/Users/Burak/OneDrive - Universiteit Antwerpen/Bureaublad/Activities/Publications/Petri-Nets-Analysis/#denemeMulti2.cpn
+Report generated: Sat Jul 13 19:05:19 2024
+
+
+ Statistics
+------------------------------------------------------------------------
+
+  State Space
+     Nodes:  202
+     Arcs:   356
+     Secs:   0
+     Status: Partial
+
+  Scc Graph
+     Nodes:  202
+     Arcs:   356
+     Secs:   0
+
+
+ Boundedness Properties
+------------------------------------------------------------------------
+
+  Best Integer Bounds
+                             Upper      Lower
+     MAS_Design'RootToarrangePosition 1
+                             0          0
+     MAS_Design'RootToawareSortAg 1
+                             0          0
+     MAS_Design'RootTocolorbucketU 1
+                             1          0
+     MAS_Design'RootTodecidecolorCV 1
+                             1          0
+     MAS_Design'RootToeject 1
+                             0          0
+     MAS_Design'RootTomybuild 1
+                             0          0
+     MAS_Design'RootTopush 1 1          0
+     MAS_Design'RootTosamplecolor 1
+                             1          0
+     MAS_Design'RootTostate 1
+                             0          0
+     MAS_Design'RootTostatus 1
+                             0          0
+     MAS_Design'RootTotoBuild 1
+                             1          0
+     MAS_Design'RootTotoPushF 1
+                             0          0
+     MAS_Design'arrangePosition0 1
+                             0          0
+     MAS_Design'arrangePositionO 1
+                             0          0
+     MAS_Design'awareSortAg0 1
+                             0          0
+     MAS_Design'buildAgent_Belief_Base 1
+                             1          1
+     MAS_Design'buildAgentinitTrigger 1
+                             0          0
+     MAS_Design'colorbucket0 1
+                             1          0
+     MAS_Design'colorbucket1 1
+                             0          0
+     MAS_Design'colorbucket2 1
+                             0          0
+     MAS_Design'colorbucket3 1
+                             0          0
+     MAS_Design'decidecolor0 1
+                             1          0
+     MAS_Design'decidecolor1 1
+                             0          0
+     MAS_Design'eject0 1     0          0
+     MAS_Design'ejectProduct4 1
+                             0          0
+     MAS_Design'ejectToejectProduct4 1
+                             0          0
+     MAS_Design'goRedPosition13 1
+                             1          0
+     MAS_Design'goYellowPosition10 1
+                             0          0
+     MAS_Design'goYellowPosition11 1
+                             0          0
+     MAS_Design'goYellowPosition12 1
+                             0          0
+     MAS_Design'goYellowPosition14 1
+                             0          0
+     MAS_Design'mediumPress2 1
+                             0          0
+     MAS_Design'mybuild0 1   0          0
+     MAS_Design'push0 1      1          0
+     MAS_Design'push1 1      0          0
+     MAS_Design'pushAgent_Belief_Base 1
+                             1          1
+     MAS_Design'pushAgentinitTrigger 1
+                             1          0
+     MAS_Design'pushMotor0 1 1          0
+     MAS_Design'resetPosition0 1
+                             0          0
+     MAS_Design'sampleColorAcc4 1
+                             1          0
+     MAS_Design'sampleColorAcx2 1
+                             1          0
+     MAS_Design'samplecolor0 1
+                             1          0
+     MAS_Design'secondPress3 1
+                             0          0
+     MAS_Design'sendbuildAgentachievemybuild13 1
+                             4          1
+     MAS_Design'sendpushAgentachievepush10 1
+                             0          0
+     MAS_Design'sendpushAgentachievepush11 1
+                             0          0
+     MAS_Design'sendpushAgentachievepush14 1
+                             0          0
+     MAS_Design'sendsortAgentachievesamplecolor2 1
+                             0          0
+     MAS_Design'sendsortAgentachievesamplecolor4 1
+                             0          0
+     MAS_Design'sendsortAgenttellbuildFreeBf5 1
+                             0          0
+     MAS_Design'sortAgent_Belief_Base 1
+                             1          1
+     MAS_Design'sortAgentinitTrigger 1
+                             0          0
+     MAS_Design'startMotor1 1
+                             0          0
+     MAS_Design'state0 1     0          0
+     MAS_Design'state1 1     0          0
+     MAS_Design'stateTomediumPress2 1
+                             0          0
+     MAS_Design'status0 1    0          0
+     MAS_Design'status1 1    0          0
+     MAS_Design'toBuild0 1   1          0
+     MAS_Design'toBuild1 1   0          0
+     MAS_Design'toBuildTogoRedPosition13 1
+                             1          0
+     MAS_Design'toBuildTogoYellowPosition14 1
+                             0          0
+     MAS_Design'toPush0 1    0          0
+     MAS_Design'toPush1 1    0          0
+     MAS_Design'toPush2 1    0          0
+     MAS_Design'toPushPhTogoYellowPosition10 1
+                             0          0
+     MAS_Design'toPushPhTogoYellowPosition11 1
+                             0          0
+     MAS_Design'toarrangePosition 1
+                             0          0
+     MAS_Design'topush 1     1          0
+     MAS_Design'tostatus 1   0          0
+
+  Best Upper Multi-set Bounds
+     MAS_Design'RootToarrangePosition 1
+                         empty
+     MAS_Design'RootToawareSortAg 1
+                         empty
+     MAS_Design'RootTocolorbucketU 1
+                         1`(true,true,false,false,5)
+     MAS_Design'RootTodecidecolorCV 1
+                         1`(true,true,false,false,5)
+     MAS_Design'RootToeject 1
+                         empty
+     MAS_Design'RootTomybuild 1
+                         empty
+     MAS_Design'RootTopush 1
+                         1`()
+     MAS_Design'RootTosamplecolor 1
+                         1`(true,true,false,false,5)
+     MAS_Design'RootTostate 1
+                         empty
+     MAS_Design'RootTostatus 1
+                         empty
+     MAS_Design'RootTotoBuild 1
+                         1`(true,true,false,false,5)
+     MAS_Design'RootTotoPushF 1
+                         empty
+     MAS_Design'arrangePosition0 1
+                         empty
+     MAS_Design'arrangePositionO 1
+                         empty
+     MAS_Design'awareSortAg0 1
+                         empty
+     MAS_Design'buildAgent_Belief_Base 1
+                         1`(1,false)
+     MAS_Design'buildAgentinitTrigger 1
+                         empty
+     MAS_Design'colorbucket0 1
+                         1`(true,true,false,false,5)
+     MAS_Design'colorbucket1 1
+                         empty
+     MAS_Design'colorbucket2 1
+                         empty
+     MAS_Design'colorbucket3 1
+                         empty
+     MAS_Design'decidecolor0 1
+                         1`(true,true,false,false,5)
+     MAS_Design'decidecolor1 1
+                         empty
+     MAS_Design'eject0 1 empty
+     MAS_Design'ejectProduct4 1
+                         empty
+     MAS_Design'ejectToejectProduct4 1
+                         empty
+     MAS_Design'goRedPosition13 1
+                         1`(true,true,false,false,5)
+     MAS_Design'goYellowPosition10 1
+                         empty
+     MAS_Design'goYellowPosition11 1
+                         empty
+     MAS_Design'goYellowPosition12 1
+                         empty
+     MAS_Design'goYellowPosition14 1
+                         empty
+     MAS_Design'mediumPress2 1
+                         empty
+     MAS_Design'mybuild0 1
+                         empty
+     MAS_Design'push0 1  1`()
+     MAS_Design'push1 1  empty
+     MAS_Design'pushAgent_Belief_Base 1
+                         1`()
+     MAS_Design'pushAgentinitTrigger 1
+                         1`()
+     MAS_Design'pushMotor0 1
+                         1`()
+     MAS_Design'resetPosition0 1
+                         empty
+     MAS_Design'sampleColorAcc4 1
+                         1`(true,true,false,false,5)
+     MAS_Design'sampleColorAcx2 1
+                         1`(true,true,false,false,5)
+     MAS_Design'samplecolor0 1
+                         1`(true,true,false,false,5)
+     MAS_Design'secondPress3 1
+                         empty
+     MAS_Design'sendbuildAgentachievemybuild13 1
+                         4`(true,true,false,false,5)
+     MAS_Design'sendpushAgentachievepush10 1
+                         empty
+     MAS_Design'sendpushAgentachievepush11 1
+                         empty
+     MAS_Design'sendpushAgentachievepush14 1
+                         empty
+     MAS_Design'sendsortAgentachievesamplecolor2 1
+                         empty
+     MAS_Design'sendsortAgentachievesamplecolor4 1
+                         empty
+     MAS_Design'sendsortAgenttellbuildFreeBf5 1
+                         empty
+     MAS_Design'sortAgent_Belief_Base 1
+                         1`(true,true,false,false,5)
+     MAS_Design'sortAgentinitTrigger 1
+                         empty
+     MAS_Design'startMotor1 1
+                         empty
+     MAS_Design'state0 1 empty
+     MAS_Design'state1 1 empty
+     MAS_Design'stateTomediumPress2 1
+                         empty
+     MAS_Design'status0 1
+                         empty
+     MAS_Design'status1 1
+                         empty
+     MAS_Design'toBuild0 1
+                         1`(true,true,false,false,5)
+     MAS_Design'toBuild1 1
+                         empty
+     MAS_Design'toBuildTogoRedPosition13 1
+                         1`(true,true,false,false,5)
+     MAS_Design'toBuildTogoYellowPosition14 1
+                         empty
+     MAS_Design'toPush0 1
+                         empty
+     MAS_Design'toPush1 1
+                         empty
+     MAS_Design'toPush2 1
+                         empty
+     MAS_Design'toPushPhTogoYellowPosition10 1
+                         empty
+     MAS_Design'toPushPhTogoYellowPosition11 1
+                         empty
+     MAS_Design'toarrangePosition 1
+                         empty
+     MAS_Design'topush 1 1`()
+     MAS_Design'tostatus 1
+                         empty
+
+  Best Lower Multi-set Bounds
+     MAS_Design'RootToarrangePosition 1
+                         empty
+     MAS_Design'RootToawareSortAg 1
+                         empty
+     MAS_Design'RootTocolorbucketU 1
+                         empty
+     MAS_Design'RootTodecidecolorCV 1
+                         empty
+     MAS_Design'RootToeject 1
+                         empty
+     MAS_Design'RootTomybuild 1
+                         empty
+     MAS_Design'RootTopush 1
+                         empty
+     MAS_Design'RootTosamplecolor 1
+                         empty
+     MAS_Design'RootTostate 1
+                         empty
+     MAS_Design'RootTostatus 1
+                         empty
+     MAS_Design'RootTotoBuild 1
+                         empty
+     MAS_Design'RootTotoPushF 1
+                         empty
+     MAS_Design'arrangePosition0 1
+                         empty
+     MAS_Design'arrangePositionO 1
+                         empty
+     MAS_Design'awareSortAg0 1
+                         empty
+     MAS_Design'buildAgent_Belief_Base 1
+                         1`(1,false)
+     MAS_Design'buildAgentinitTrigger 1
+                         empty
+     MAS_Design'colorbucket0 1
+                         empty
+     MAS_Design'colorbucket1 1
+                         empty
+     MAS_Design'colorbucket2 1
+                         empty
+     MAS_Design'colorbucket3 1
+                         empty
+     MAS_Design'decidecolor0 1
+                         empty
+     MAS_Design'decidecolor1 1
+                         empty
+     MAS_Design'eject0 1 empty
+     MAS_Design'ejectProduct4 1
+                         empty
+     MAS_Design'ejectToejectProduct4 1
+                         empty
+     MAS_Design'goRedPosition13 1
+                         empty
+     MAS_Design'goYellowPosition10 1
+                         empty
+     MAS_Design'goYellowPosition11 1
+                         empty
+     MAS_Design'goYellowPosition12 1
+                         empty
+     MAS_Design'goYellowPosition14 1
+                         empty
+     MAS_Design'mediumPress2 1
+                         empty
+     MAS_Design'mybuild0 1
+                         empty
+     MAS_Design'push0 1  empty
+     MAS_Design'push1 1  empty
+     MAS_Design'pushAgent_Belief_Base 1
+                         1`()
+     MAS_Design'pushAgentinitTrigger 1
+                         empty
+     MAS_Design'pushMotor0 1
+                         empty
+     MAS_Design'resetPosition0 1
+                         empty
+     MAS_Design'sampleColorAcc4 1
+                         empty
+     MAS_Design'sampleColorAcx2 1
+                         empty
+     MAS_Design'samplecolor0 1
+                         empty
+     MAS_Design'secondPress3 1
+                         empty
+     MAS_Design'sendbuildAgentachievemybuild13 1
+                         1`(true,true,false,false,5)
+     MAS_Design'sendpushAgentachievepush10 1
+                         empty
+     MAS_Design'sendpushAgentachievepush11 1
+                         empty
+     MAS_Design'sendpushAgentachievepush14 1
+                         empty
+     MAS_Design'sendsortAgentachievesamplecolor2 1
+                         empty
+     MAS_Design'sendsortAgentachievesamplecolor4 1
+                         empty
+     MAS_Design'sendsortAgenttellbuildFreeBf5 1
+                         empty
+     MAS_Design'sortAgent_Belief_Base 1
+                         1`(true,true,false,false,5)
+     MAS_Design'sortAgentinitTrigger 1
+                         empty
+     MAS_Design'startMotor1 1
+                         empty
+     MAS_Design'state0 1 empty
+     MAS_Design'state1 1 empty
+     MAS_Design'stateTomediumPress2 1
+                         empty
+     MAS_Design'status0 1
+                         empty
+     MAS_Design'status1 1
+                         empty
+     MAS_Design'toBuild0 1
+                         empty
+     MAS_Design'toBuild1 1
+                         empty
+     MAS_Design'toBuildTogoRedPosition13 1
+                         empty
+     MAS_Design'toBuildTogoYellowPosition14 1
+                         empty
+     MAS_Design'toPush0 1
+                         empty
+     MAS_Design'toPush1 1
+                         empty
+     MAS_Design'toPush2 1
+                         empty
+     MAS_Design'toPushPhTogoYellowPosition10 1
+                         empty
+     MAS_Design'toPushPhTogoYellowPosition11 1
+                         empty
+     MAS_Design'toarrangePosition 1
+                         empty
+     MAS_Design'topush 1 empty
+     MAS_Design'tostatus 1
+                         empty
+
+
+ Home Properties
+------------------------------------------------------------------------
+
+  Home Markings
+     None
+
+
+ Liveness Properties
+------------------------------------------------------------------------
+
+  Dead Markings
+     [198,199,200,201,202]
+
+  Dead Transition Instances
+     MAS_Design'RootToarrangePosition 1
+     MAS_Design'RootToawareSortAg 1
+     MAS_Design'RootToeject 1
+     MAS_Design'RootTomybuild 1
+     MAS_Design'RootTostate 1
+     MAS_Design'RootTostatus 1
+     MAS_Design'RootTotoPushF 1
+     MAS_Design'arrangePosition0ToarrangePosition 1
+     MAS_Design'arrangePosition0ToawareSortAg 1
+     MAS_Design'arrangePositionToHeadresetPosition0 1
+     MAS_Design'awareSortAgToHead 1
+     MAS_Design'awareSortAgTosendsortAgenttellbuildFreeBf5 1
+     MAS_Design'colorbucket1TotoPush 1
+     MAS_Design'colorbucket2TotoPush 1
+     MAS_Design'colorbucket3Tosamplecolor 1
+     MAS_Design'decidecolor1Tosamplecolor 1
+     MAS_Design'eject0ToawareSortAg 1
+     MAS_Design'ejectToHeadejectProduct4 1
+     MAS_Design'ejectToejectProduct4 1
+     MAS_Design'ejectTosendsortAgentachievesamplecolor4 1
+     MAS_Design'initbuildAgent 1
+     MAS_Design'initsortAgent 1
+     MAS_Design'mybuild0Tostate 1
+     MAS_Design'push1Topush 1
+     MAS_Design'state0ToawareSortAg 1
+     MAS_Design'state1Toeject 1
+     MAS_Design'stateToHeadmediumPress2 1
+     MAS_Design'stateToHeadsecondPress3 1
+     MAS_Design'stateTomediumPress2 1
+     MAS_Design'stateTosendsortAgentachievesamplecolor2 1
+     MAS_Design'status0Tostatus 1
+     MAS_Design'status1Tosamplecolor 1
+     MAS_Design'statusToHeadstartMotor1 1
+     MAS_Design'toBuild1Tosamplecolor 1
+     MAS_Design'toBuildToHeadgoYellowPosition14 1
+     MAS_Design'toBuildTogoYellowPosition14 1
+     MAS_Design'toBuildTosendbuildAgentachievemybuild13 1
+     MAS_Design'toBuildTosendpushAgentachievepush14 1
+     MAS_Design'toPush0Tosamplecolor 1
+     MAS_Design'toPush1Tosamplecolor 1
+     MAS_Design'toPush2Tosamplecolor 1
+     MAS_Design'toPushPhToHeadgoYellowPosition10 1
+     MAS_Design'toPushPhToHeadgoYellowPosition11 1
+     MAS_Design'toPushPhToHeadgoYellowPosition12 1
+     MAS_Design'toPushPhTogoYellowPosition10 1
+     MAS_Design'toPushPhTogoYellowPosition11 1
+     MAS_Design'toPushPhTosendpushAgentachievepush10 1
+     MAS_Design'toPushPhTosendpushAgentachievepush11 1
+     MAS_Design'toarrangePosition 1
+     MAS_Design'tostatus 1
+
+  Live Transition Instances
+     None
+
+
+ Fairness Properties
+------------------------------------------------------------------------
+     No infinite occurrence sequences.
